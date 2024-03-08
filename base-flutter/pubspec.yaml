@@ -1,0 +1,86 @@
+name: ints
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0-417.1.beta <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5
+
+  # UTILITIES
+  device_info_plus: ^9.0.2
+  package_info: ^2.0.2
+  url_launcher: ^6.1.7
+  win32: ^5.0.5
+  intl: ^0.18.0
+
+  # GETX STATE MANAGEMENT
+  get: ^4.6.5
+  get_storage: ^2.0.3
+
+  # DATABASE
+  sembast: ^3.4.9
+
+
+  # Networking
+  dio: ^5.2.1+1
+  cookie_jar: ^4.0.5
+  dio_cookie_manager: ^3.1.0
+  jwt_decode: ^0.3.1
+
+  #Assets
+  flutter_svg: ^1.1.6
+  jwt_decoder: ^2.0.1
+
+  #Toast
+  oktoast: ^3.3.1
+
+  #Screen Util
+  flutter_screenutil: ^5.8.4
+  ticket_widget: ^1.0.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/gif/loading_spinner.gif
+    - assets/json/provinsi.json
+    - assets/json/kabupaten.json
+    - assets/json/kecamatan.json
+    - assets/
+    - assets/svg/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+    - family: RobotoMedium
+      fonts:
+        - asset: assets/fonts/Roboto-Medium.ttf
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins.ttf
+    - family: QuicksandMedium
+      fonts:
+        - asset: assets/fonts/Quicksand-Medium.ttf
+    - family: NotoSansJP
+      fonts:
+        - asset: assets/fonts/NotoSansJP-Regular.otf
+        - asset: assets/fonts/NotoSansJP-Light.otf
+          weight: 300
+        - asset: assets/fonts/NotoSansJP-Medium.otf
+          weight: 500
+        - asset: assets/fonts/NotoSansJP-Bold.otf
+          weight: 700
+        - asset: assets/fonts/NotoSansJP-Bold.otf
+          weight: 900
